@@ -18,8 +18,7 @@ library-Numgraph/
 │   ├── setup.py ...................... Package setup (legacy)
 │   ├── pyproject.toml ................ Modern package config
 │   ├── requirements.txt .............. Dependencies
-│   ├── MANIFEST.in ................... Package file inclusion
-│   └── LICENSE ....................... MIT License
+│   └── MANIFEST.in ................... Package file inclusion
 │
 ├── 🔧 DEVELOPMENT TOOLS
 │   ├── dev_setup.sh .................. Linux/Mac setup script

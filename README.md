@@ -1,40 +1,33 @@
-# numgraph 🔢➡️📊
+# numgraph
 
-[![PyPI version](https://badge.fury.io/py/numgraph.svg)](https://badge.fury.io/py/numgraph)
+[![PyPI version](https://badge.fury.io/py/numgraph-equation.svg)](https://pypi.org/project/numgraph-equation/)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![CI](https://github.com/ayushmishra/numgraph/workflows/CI/badge.svg)](https://github.com/ayushmishra/numgraph/actions)
-[![codecov](https://codecov.io/gh/ayushmishra/numgraph/branch/main/graph/badge.svg)](https://codecov.io/gh/ayushmishra/numgraph)
 
-A Python library that converts mathematical equations, functions, or datasets into graph/network structures for visualization and analysis.
+A Python library that converts mathematical equations into graph/network structures for visualization and analysis.
 
-## 🎯 What is numgraph?
+## What is numgraph?
 
-**numgraph** turns mathematical relationships into nodes and edges, then visualizes them. This helps users see how variables and operations interact — perfect for:
+numgraph turns mathematical relationships into nodes and edges, then visualizes them as interactive graphs. This helps users understand how variables and operations interact.
 
-- 📚 Students learning algebra/calculus
-- 🔬 Data scientists analyzing feature dependencies
-- 🧪 Researchers visualizing formulas or constraints
+**Use cases:**
+- Students learning algebra and calculus
+- Data scientists analyzing feature dependencies
+- Researchers visualizing mathematical formulas
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
-Install from PyPI (once published):
+Install from PyPI:
 ```bash
-pip install numgraph
+pip install numgraph-equation
 ```
 
 Or install from source:
 ```bash
-git clone https://github.com/ayushmishra/numgraph.git
+git clone https://github.com/Ayush-07-Mishra/numgraph.git
 cd numgraph
 pip install -e .
-```
-
-For development:
-```bash
-pip install -e ".[dev]"
 ```
 
 ### Basic Usage
@@ -49,31 +42,16 @@ make_graph("x**2 + y**2 = 25", visualize=True)
 make_graph("y = x**2 - 4*x + 3", func_range=(-10, 10), visualize=True)
 ```
 
-## 📦 Features
+## Features
 
-### ✅ Phase 1: Core Functionality (MVP)
-- Parse mathematical equations using `sympy`
-- Build graph structures with `networkx`
-- Visualize using `matplotlib` and `pyvis`
-- Export graphs to various formats
+- Parse mathematical equations using SymPy
+- Build graph structures with NetworkX
+- Interactive HTML visualizations with PyVis
+- Static plots with Matplotlib
+- Export to GraphML and GEXF formats
+- Function plotting with custom ranges
 
-### 🔮 Phase 2: Function Graphs
-- Plot functional relationships
-- Show variable dependency graphs
-- Evaluate functions over ranges
-
-### 📊 Phase 3: Dataset Integration (Coming Soon)
-- Build correlation graphs from DataFrames
-- Analyze feature relationships
-- Threshold-based edge creation
-
-### 🧠 Phase 4: Advanced Features (Planned)
-- Auto-detect independent/dependent variables
-- Bipartite graph visualization
-- Export to `.graphml`, `.png`, etc.
-- AI-based function simplification
-
-## 📖 Examples
+## Examples
 
 ### Circle Equation
 
@@ -114,9 +92,9 @@ viz.show_interactive()  # Interactive HTML visualization
 viz.show_static()       # Static matplotlib plot
 ```
 
-## 🛠️ API Reference
+## API Reference
 
-### `make_graph(equation, visualize=False, func_range=None, save_path=None)`
+### make_graph(equation, visualize=False, func_range=None, save_path=None)
 
 Main function to create and optionally visualize equation graphs.
 
@@ -129,34 +107,30 @@ Main function to create and optionally visualize equation graphs.
 **Returns:**
 - `networkx.Graph`: Graph representation of the equation
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 numgraph/
-│
 ├── numgraph/
 │   ├── __init__.py         # Main API
-│   ├── parser.py           # Equation parsing logic
-│   ├── graph_builder.py    # NetworkX graph creation
-│   ├── visualizer.py       # Matplotlib/Pyvis visualization
-│   └── dataset.py          # Dataset → graph (future)
-│
+│   ├── parser.py           # Equation parsing
+│   ├── graph_builder.py    # Graph creation
+│   ├── visualizer.py       # Visualization
+│   └── dataset.py          # Dataset utilities
 ├── examples/
 │   ├── circle_equation.py
 │   ├── quadratic_function.py
 │   └── custom_analysis.py
-│
 ├── tests/
 │   ├── test_parser.py
 │   ├── test_graph_builder.py
 │   └── test_visualizer.py
-│
 ├── setup.py
 ├── README.md
 └── requirements.txt
 ```
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -166,31 +140,21 @@ python -m pytest tests/
 python -m pytest tests/test_parser.py -v
 ```
 
-## 📄 License
+## Dependencies
 
-MIT License - feel free to use this project however you'd like!
+- sympy - Symbolic mathematics and parsing
+- networkx - Graph creation and analysis
+- pyvis - Interactive network visualization
+- matplotlib - Static plotting
+- numpy - Numerical computations
 
-## 🤝 Contributing
+## Contributing
 
-Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
-## 📝 Publishing
+## Contact
 
-To publish this package to PyPI for others to use, see [PUBLISHING.md](PUBLISHING.md) for detailed instructions.
-
-## 📋 Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for version history and release notes.
-
-## 🔗 Tech Stack
-
-- **sympy** → Symbolic mathematics and parsing
-- **networkx** → Graph creation and analysis
-- **pyvis** → Interactive network visualization
-- **matplotlib** → Static plotting
-- **numpy** → Numerical computations
-
-## 🎓 Use Cases
+For questions or support: luckymishra312004@gmail.com
 
 ### For Students
 - Visualize how equations are structured
@@ -198,36 +162,6 @@ See [CHANGELOG.md](CHANGELOG.md) for version history and release notes.
 - See variable relationships clearly
 
 ### For Educators
-- Create interactive math visualizations
-- Demonstrate equation parsing
-- Teaching tool for graph theory
+## Contact
 
-### For Researchers
-- Analyze mathematical formula structure
-- Study equation complexity
-- Visualize algorithm dependencies
-
-### For Developers
-- Parse mathematical expressions
-- Build equation-based applications
-- Create mathematical documentation
-
-## 📮 Contact
-
-For questions or suggestions, please open an issue on GitHub.
-
-## ⭐ Show Your Support
-
-If you find numgraph helpful, please give it a star on GitHub!
-
-## 🙏 Acknowledgments
-
-Built with these amazing libraries:
-- [SymPy](https://www.sympy.org/) - Symbolic mathematics
-- [NetworkX](https://networkx.org/) - Complex networks
-- [Matplotlib](https://matplotlib.org/) - Plotting library
-- [PyVis](https://pyvis.readthedocs.io/) - Interactive visualizations
-
----
-
-Made with ❤️ for math and graph enthusiasts!
+For questions or support: luckymishra312004@gmail.com

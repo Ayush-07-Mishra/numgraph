@@ -10,7 +10,7 @@ We release patches for security vulnerabilities for the following versions:
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability within numgraph, please send an email to [your.email@example.com](mailto:your.email@example.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within numgraph, please send an email to [luckymishra312004@gmail.com](mailto:luckymishra312004@gmail.com). All security vulnerabilities will be promptly addressed.
 
 Please include the following information:
 

@@ -11,7 +11,6 @@ Your project now has everything needed for professional Python package distribut
 - ✅ **setup.py** - Package installation configuration
 - ✅ **pyproject.toml** - Modern Python packaging
 - ✅ **requirements.txt** - Dependencies list
-- ✅ **LICENSE** - MIT license
 
 ### Documentation
 - ✅ **CONTRIBUTING.md** - Contribution guidelines
@@ -240,7 +239,6 @@ git push origin feature/my-feature
 - **Test Coverage:** Full test suite included
 - **Dependencies:** 5 core libraries
 - **Python Support:** 3.8 - 3.12
-- **License:** MIT (very permissive!)
 
 ---
 
@@ -252,7 +250,6 @@ git push origin feature/my-feature
 - [ ] Personal info updated (author, email, URLs)
 - [ ] Version number is correct (0.1.0)
 - [ ] CHANGELOG is updated
-- [ ] LICENSE file is present
 - [ ] .gitignore is configured
 - [ ] GitHub repository created
 - [ ] PyPI account created

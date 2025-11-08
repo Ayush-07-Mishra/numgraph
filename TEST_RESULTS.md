@@ -202,7 +202,6 @@ TOTAL                         240     90    62%
 - [x] Documentation complete
 - [x] Package structure correct
 - [x] Dependencies specified
-- [x] License included (MIT)
 - [x] README comprehensive
 - [x] Contributing guide present
 
@@ -211,7 +210,6 @@ TOTAL                         240     90    62%
 - [x] pyproject.toml
 - [x] requirements.txt
 - [x] MANIFEST.in
-- [x] LICENSE
 - [x] README.md
 - [x] All documentation files
 - [x] Test suite

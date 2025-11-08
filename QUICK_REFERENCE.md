@@ -4,7 +4,7 @@
 ```bash
 pip install numgraph  # Once published to PyPI
 # OR
-pip install git+https://github.com/ayushmishra/numgraph.git
+pip install git+https://github.com/Ayush-07-Mishra/numgraph.git
 ```
 
 ## Basic Usage
@@ -118,5 +118,5 @@ variables = builder.get_variables()
 
 ## Support
 
-- Issues: https://github.com/ayushmishra/numgraph/issues
-- Discussions: https://github.com/ayushmishra/numgraph/discussions
+- Issues: https://github.com/Ayush-07-Mishra/numgraph/issues
+- Repository: https://github.com/Ayush-07-Mishra/numgraph

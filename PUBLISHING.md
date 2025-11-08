@@ -102,7 +102,6 @@ Follow [Semantic Versioning](https://semver.org/):
 - [ ] Version number updated
 - [ ] CHANGELOG.md updated
 - [ ] README.md accurate
-- [ ] License file present
 - [ ] `.gitignore` configured
 - [ ] Built and tested locally
 - [ ] Tested on TestPyPI

@@ -11,12 +11,12 @@ pip install numgraph
 
 ### Option 2: Install from GitHub
 ```bash
-pip install git+https://github.com/ayushmishra/numgraph.git
+pip install git+https://github.com/Ayush-07-Mishra/numgraph.git
 ```
 
 ### Option 3: Install from Source
 ```bash
-git clone https://github.com/ayushmishra/numgraph.git
+git clone https://github.com/Ayush-07-Mishra/numgraph.git
 cd numgraph
 pip install .
 ```
